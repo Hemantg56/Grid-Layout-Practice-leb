@@ -1,0 +1,92 @@
+/* esa denge to flex layout se kaam hoga */
+
+
+/* flex layout ke under width dena jaruri hai or vo jisaka perent ho uso display flex dena jajruri */
+
+
+/* ye hota hai flex ke sath layout bana rahe hai */
+
+
+/* layout karva mate 2 type 6 */
+
+
+/* 1.flex-layout 
+
+.main {
+    height: 200px;
+    background-color: brown;
+    display: flex;
+}
+
+.main .x {
+    height: inherit;
+    width: 30%;
+    background-color: aqua;
+}
+
+.main .y {
+    height: inherit;
+    width: 70%;
+    background-color: chartreuse;
+} */
+
+
+/* 2.grid-layout  */
+
+
+/* grid etale ke aapde jyare ek perent ma display-grid aapo to e hight diwaid karine aave 6 */
+
+
+/* aapne jyare column ne divaid karvu hoy to ena mate css attribute */
+
+
+/* Grid-Temaplate -Columns: fr fr; */
+
+
+/* fr etale ke tamne ketala baag ma joyiye 6 */
+
+
+/* fr ull from ==>  frequace */
+
+
+/* value ma fr ek vaar lakhso to 100% */
+
+
+/* value ma fr fr be vakat lakse to 50% 50% ma divaid thayi jaay div */
+
+
+/* fr fr na aagad numbar lakavanu */
+
+
+/* kemke aapne 30% joyiye to fr na aagad 3fr lakhavanu jaroori 6 */
+
+
+/* be div ni width alag alag joyiye to fr na aagad 2fr 8fr - -  */
+
+
+/* 2fr etale 20% thayi jase div ni width. 8fr etale 80% thayi jase div ni width. */
+
+
+/* fr na aagad 1 to 10 na uder j aapvanu 6 */
+
+
+/* Grid-Template-Rows: fr fr */
+
+
+/* aama hight ne divaid karavanu hoy to grid-temaplate-rows use thay 6  */
+
+* {
+    box-sizing: border-box;
+}
+
+.main {
+    height: 500px;
+    background-color: brown;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.main .x {
+    border: 2px solid;
+    /* background-color: chartreuse; */
+}
